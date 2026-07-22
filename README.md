@@ -26,7 +26,7 @@ Text-to-3D GLB generation with a pairwise model-ranking arena, deployed on AWS �
 
 | | |
 |---|---|
-| [**sds-gpu-boids**](https://github.com/matthew-kissinger/sds-gpu-boids) | WebGPU compute-shader flocking sandbox — 100k+ agents, prefix-scan spatial grid, CPU reference oracle validating the GPU pipeline. The lab behind Sheep Dog Simulator. |
+| [**sds-gpu-boids**](https://github.com/matthew-kissinger/sds-gpu-boids) | WebGPU compute-shader flocking sandbox — 100k+ agents, prefix-scan spatial grid, CPU reference oracle validating the GPU pipeline. The lab behind Sheep Dog Simulator. [Live experimental build](https://matthew-kissinger.github.io/sds-gpu-boids/) |
 | [**goldberg-planet**](https://github.com/matthew-kissinger/goldberg-planet) | Survival sandbox on a Goldberg polyhedron sphere — topology derived from scratch. [Live demo](https://matthew-kissinger.github.io/goldberg-planet/) |
 | [**mycelium-v2**](https://github.com/matthew-kissinger/mycelium-v2) | Orchestrating fleets of AI coding agents — Claude Code, Codex, Gemini — as a production development methodology. |
 | [**falling-sand-alchemy**](https://github.com/matthew-kissinger/falling-sand-alchemy) | Zen falling-sand alchemy game on WebGL2 — cellular automata with a crafting system. |
