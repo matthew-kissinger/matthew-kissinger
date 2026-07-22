@@ -35,7 +35,7 @@ Text-to-3D GLB generation with a pairwise model-ranking arena, deployed on AWS -
 
 GPT-3 experiments (2023) → local model pipelines and vanilla-JS games (2024) → WebGPU engines, shipped multiplayer games, and production AI systems (2025-26).
 
-The early public repos are still up: hand-rolled RAG with raw embeddings, [radar](https://github.com/matthew-kissinger/radar) (proto tool-calling and context recursion before that was standard tooling), [2DGAG](https://github.com/matthew-kissinger/2DGAG) (a local Stable Diffusion asset pipeline), [zoo-mcp](https://github.com/matthew-kissinger/zoo-mcp), plus a WebGPU ocean sim, a whale sim with sonar-as-vision, a PSX-style survival horror, and an agent swarm that shipped ten small games unsupervised. Most of that stays private - old prototypes and stepping stones.
+The early public repos are still up: hand-rolled RAG with raw embeddings, [radar](https://github.com/matthew-kissinger/radar) (proto tool-calling and context recursion before that was standard tooling), [2DGAG](https://github.com/matthew-kissinger/2DGAG) (a local Stable Diffusion asset pipeline), [zoo-mcp](https://github.com/matthew-kissinger/zoo-mcp), plus a WebGPU ocean sim, a whale sim with sonar-as-vision, a PSX-style survival horror, and early experiments running coding-agent swarms unsupervised. Most of that stays private - old prototypes and stepping stones.
 
 The heaviest AI work lives in company repos: a year of building enterprise AI pipelines - a dozen MCP servers (half deployed to Bedrock AgentCore), agent skills, case triage and resolution pipelines, classifiers, bug-hunting agents. [kilnstudio.tools](https://kilnstudio.tools) exists partly to show that same stack and scale in public, built solo.
 
