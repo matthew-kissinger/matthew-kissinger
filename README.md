@@ -1,8 +1,8 @@
 # Matthew Kissinger
 
-**I build browser games and the AI tooling to make them.**
+**I build games, AI systems, and the tooling to make them.**
 
-Solo developer working across real-time 3D (WebGL and WebGPU, Three.js/TSL) and AI asset pipelines. I hand-roll the systems that matter - flocking, terrain, wave physics, multiplayer netcode - and when the tool I need doesn't exist, I build it.
+Developer working across real-time 3D (WebGL and WebGPU, Three.js/TSL), AI pipelines, and whatever the problem actually needs. I hand-roll the systems that matter - flocking, terrain, wave physics, multiplayer netcode - and when the tool I need doesn't exist, I build it.
 
 <!-- capture slots: 2-up gameplay grid goes here (sds + titj), see SHOTLIST.md -->
 
@@ -33,9 +33,13 @@ Text-to-3D GLB generation with a pairwise model-ranking arena, deployed on AWS -
 
 ## The arc
 
-GPT-3 experiments (2023) → local model pipelines and vanilla-JS games (2024) → WebGPU engines, shipped multiplayer games, and deployed AI SaaS (2025-26).
+GPT-3 experiments (2023) → local model pipelines and vanilla-JS games (2024) → WebGPU engines, shipped multiplayer games, and production AI systems (2025-26).
 
-Along the way: hand-rolled RAG before LangChain existed, research agents, Stable Diffusion asset pipelines, local inference UIs, MCP servers in the earliest days of the protocol ([zoo-mcp](https://github.com/matthew-kissinger/zoo-mcp), [radar](https://github.com/matthew-kissinger/radar), [2DGAG](https://github.com/matthew-kissinger/2DGAG) are still up), a WebGPU ocean sim, a whale sim with sonar-as-vision, a PSX-style survival horror, and an agent swarm that shipped ten small games unsupervised. Most of that work stays private - old prototypes, space junk, and ideas that earned their keep as stepping stones. The lineage that mattered became kilnstudio.tools and the games above.
+The early public repos are still up: hand-rolled RAG with raw embeddings, [radar](https://github.com/matthew-kissinger/radar) (proto tool-calling and context recursion before that was standard tooling), [2DGAG](https://github.com/matthew-kissinger/2DGAG) (a local Stable Diffusion asset pipeline), [zoo-mcp](https://github.com/matthew-kissinger/zoo-mcp), plus a WebGPU ocean sim, a whale sim with sonar-as-vision, a PSX-style survival horror, and an agent swarm that shipped ten small games unsupervised. Most of that stays private - old prototypes and stepping stones.
+
+The heaviest AI work lives in company repos: a year of building enterprise AI pipelines - a dozen MCP servers (half deployed to Bedrock AgentCore), agent skills, case triage and resolution pipelines, classifiers, bug-hunting agents. [kilnstudio.tools](https://kilnstudio.tools) exists partly to show that same stack and scale in public, built solo.
+
+Before all of this I worked as a senior blockchain systems analyst. I intend to come back around to crypto eventually - there are systems I designed back then that the tooling couldn't build yet.
 
 Some repos here are deliberately frozen rather than maintained. Model generations move fast; a working orchestrator from six months ago is worth more as an artifact than as a codebase to drag forward.
 
