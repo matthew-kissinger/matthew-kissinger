@@ -41,6 +41,8 @@ The heaviest AI work lives in company repos: a year of building enterprise AI pi
 
 Before all of this I worked as a senior blockchain systems analyst. I intend to come back around to crypto eventually - there are systems I designed back then that the tooling couldn't build yet.
 
+If there is one through-line, it's simulation. Boid flocking from CPU prototypes to 100k+ agents in WebGPU compute ([sds](https://github.com/matthew-kissinger/sds) → [sds-gpu-boids](https://github.com/matthew-kissinger/sds-gpu-boids)), cellular automata ([falling-sand-alchemy](https://github.com/matthew-kissinger/falling-sand-alchemy)), a streaming voxel planet on real polyhedron topology ([goldberg-planet](https://github.com/matthew-kissinger/goldberg-planet)), combat simulation for thousands of NPCs on real USGS terrain ([terror-in-the-jungle](https://github.com/matthew-kissinger/terror-in-the-jungle)), plus private work on Gerstner-wave oceans, whale kinematics with sonar-as-vision, and hand-rolled flight physics. Games are how I ship simulations people can touch.
+
 Some repos here are deliberately frozen rather than maintained. Model generations move fast; a working orchestrator from six months ago is worth more as an artifact than as a codebase to drag forward.
 
 Recurring habits: **CPU/GPU parity** (terrain math, wave math, and boid logic that run bit-identically on both), **hand-rolling core systems** instead of reaching for engines, and **shipping live URLs** - a project isn't done until someone can play it.
