@@ -37,7 +37,7 @@ GPT-3 experiments (2023) â†’ local model pipelines and vanilla-JS games (2024) â
 
 The early public repos are still up: hand-rolled RAG with raw embeddings, [radar](https://github.com/matthew-kissinger/radar) (proto tool-calling and context recursion before that was standard tooling), [2DGAG](https://github.com/matthew-kissinger/2DGAG) (a local Stable Diffusion asset pipeline), [zoo-mcp](https://github.com/matthew-kissinger/zoo-mcp), plus a WebGPU ocean sim, a whale sim with sonar-as-vision, a PSX-style survival horror, and early experiments running coding-agent swarms unsupervised. Most of that stays private - old prototypes and stepping stones.
 
-The heaviest AI work lives in the company repos of a previous role: a year of building enterprise AI pipelines - a dozen MCP servers (half deployed to Bedrock AgentCore), agent skills, case triage and resolution pipelines, classifiers, bug-hunting agents. [kilnstudio.tools](https://kilnstudio.tools) exists partly to show that same stack and scale in public, built solo.
+The heaviest AI work lives in the company repos of a previous role: a year of building enterprise AI pipelines - a dozen MCP servers (half deployed to Bedrock AgentCore), agent skills, case triage and resolution pipelines, classifiers, bug-hunting agents - plus a full-stack dev portal and a support portal, shipped solo. [kilnstudio.tools](https://kilnstudio.tools) exists partly to show that same stack and scale in public, built solo.
 
 Before all of this I worked as a senior blockchain systems analyst. I intend to come back around to crypto eventually - there are systems I designed back then that the tooling couldn't build yet.
 
