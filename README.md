@@ -8,18 +8,18 @@ Solo developer working across real-time 3D (WebGL and WebGPU, Three.js/TSL) and 
 
 ## Playing now
 
-**[sheepdogsim.com](https://sheepdogsim.com)** · [source](https://github.com/matthew-kissinger/sds)
+**[sheepdogsim.com](https://sheepdogsim.com)** · [source](https://github.com/matthew-kissinger/sds)  
 Browser-based 3D sheep herding game. Solo leaderboard modes, 2-4 player online co-op and competitive rooms, split-screen, a sandbox editor, full mobile + gamepad support. Three.js with WebGL fallback and progressive WebGPU, React 19, Cloudflare Workers + Durable Objects. Fully open source (AGPL-3.0) - a complete shipped multiplayer game you can read end-to-end.
 
-**[terror-in-the-jungle.pages.dev](https://terror-in-the-jungle.pages.dev)** · [source](https://github.com/matthew-kissinger/terror-in-the-jungle)
+**[terror-in-the-jungle.pages.dev](https://terror-in-the-jungle.pages.dev)** · [source](https://github.com/matthew-kissinger/terror-in-the-jungle)  
 Combined-arms Vietnam-theater FPS/RTS sandbox // infantry, ground vehicles, helicopters, and fixed-wing aircraft in one runtime, architected for ~3,000 NPCs on real A Shau Valley DEM terrain. WebGPU/TSL, 314k lines, 5,900+ tests.
 
-**[objekt62.com](https://objekt62.com)** · closed source
+**[objekt62.com](https://objekt62.com)** · closed source  
 Multiplayer salvage-horror in the browser. Authoritative-server netcode on Cloudflare Durable Objects with client-side prediction and reconciliation, deterministic CPU/GPU terrain parity. The code is private IP - the game is live.
 
 ## Building
 
-**[kilnstudio.tools](https://kilnstudio.tools)** · closed source
+**[kilnstudio.tools](https://kilnstudio.tools)** · closed source  
 Text-to-3D GLB generation with a pairwise model-ranking arena, deployed on AWS - Bedrock AgentCore Runtime, ECS Fargate, DynamoDB, Cognito, CDK-managed infra. The current endpoint of three years of AI asset-pipeline work.
 
 ## R&D
