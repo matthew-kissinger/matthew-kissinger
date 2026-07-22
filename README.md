@@ -30,6 +30,7 @@ Text-to-3D GLB generation with a pairwise model-ranking arena, deployed on AWS -
 | [**goldberg-planet**](https://github.com/matthew-kissinger/goldberg-planet) | Demo concept: a walkable, flyable, mineable planet whose surface is a true Goldberg polyhedron, topology derived from scratch. [Live demo](https://matthew-kissinger.github.io/goldberg-planet/) |
 | [**mycelium-v2**](https://github.com/matthew-kissinger/mycelium-v2) | Multi-agent orchestration for CLI coding agents. Deliberately archived - a frozen snapshot of what agent orchestration looked like in early 2026, kept as reference for the next rebuild. |
 | [**falling-sand-alchemy**](https://github.com/matthew-kissinger/falling-sand-alchemy) | Zen falling-sand game about transmutation. Pure cellular automaton in TypeScript drawn through a WebGL2 bloom pipeline. [Play it](https://matthew-kissinger.github.io/falling-sand-alchemy/) |
+| **wavy** · closed source | WebGPU ocean sandbox on Three.js TSL. A CPU/GPU twin: the same Gerstner wave math drives the GPU water surface and CPU-side buoyancy for drivable boats, with compute-shader foam and wake and dual above/below-water rendering. The lab behind the ocean work mentioned below. [Live build](https://matthew-kissinger.github.io/wavy/) |
 
 ## The arc
 
