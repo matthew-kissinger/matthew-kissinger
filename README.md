@@ -31,9 +31,59 @@ Text-to-3D GLB generation with a pairwise model-ranking arena, deployed on AWS �
 | [**mycelium-v2**](https://github.com/matthew-kissinger/mycelium-v2) | Orchestrating fleets of AI coding agents — Claude Code, Codex, Gemini — as a production development methodology. |
 | [**falling-sand-alchemy**](https://github.com/matthew-kissinger/falling-sand-alchemy) | Zen falling-sand alchemy game on WebGL2 — cellular automata with a crafting system. |
 
-## The arc
+## The arcs
 
-GPT-3 Flask wrappers (2023) → local model pipelines and vanilla-JS games (2024) → WebGPU engines, shipped multiplayer games, and deployed AI SaaS (2025–26). Every repo on this profile is a step in that line.
+GPT-3 Flask wrappers (2023) → local model pipelines and vanilla-JS games (2024) → WebGPU engines, shipped multiplayer games, and deployed AI SaaS (2025–26). Every repo on this profile is a step in one of four lines:
+
+<details>
+<summary><b>🕹️ Vanilla JS game dev → WebGPU engine author</b></summary>
+<br>
+
+| | | |
+|---|---|---|
+| 2023 | [Space-Hive-Battle](https://github.com/matthew-kissinger/Space-Hive-Battle) | Pygame prototype, single file |
+| 2024 | [TimeDrift](https://github.com/matthew-kissinger/TimeDrift.github.io) · [vector-hazard-zone](https://github.com/matthew-kissinger/vector-hazard-zone) | Vanilla JS Canvas 2D arcade games |
+| 2024 | [terror-in-the-jungle-vr-experimental](https://github.com/matthew-kissinger/terror-in-the-jungle-vr-experimental) | Three.js + WebXR, GPU-instanced vegetation |
+| 2025 | [goldberg-planet](https://github.com/matthew-kissinger/goldberg-planet) · [Asteroid-Miner](https://github.com/matthew-kissinger/Asteroid-Miner) · [the-nightman-cometh](https://github.com/matthew-kissinger/the-nightman-cometh) · [sperm-whale-sim](https://github.com/matthew-kissinger/sperm-whale-sim) · wavy *(private)* | WebGPU-native games: TSL shaders, bitECS, Gerstner waves, PSX horror |
+| 2026 | [terror-in-the-jungle](https://github.com/matthew-kissinger/terror-in-the-jungle) · [sds](https://github.com/matthew-kissinger/sds) · [objekt62.com](https://objekt62.com) *(closed source)* | Shipped multiplayer games — real DEM terrain, authoritative netcode, 314k LOC |
+
+</details>
+
+<details>
+<summary><b>🤖 GPT-3 experimenter → production AI builder</b></summary>
+<br>
+
+| | | |
+|---|---|---|
+| 2023 | [CourseAI-V2](https://github.com/matthew-kissinger/CourseAI-V2) · [radar](https://github.com/matthew-kissinger/radar) | Hand-rolled RAG with ada-002 (pre-LangChain), iterative GPT-4 research agent |
+| 2023 | [2DGAG](https://github.com/matthew-kissinger/2DGAG) | Local Llama + Stable Diffusion game-asset pipeline |
+| 2024 | [llama-prime](https://github.com/matthew-kissinger/llama-prime) · [b0tf4rm](https://github.com/matthew-kissinger/b0tf4rm) | Local inference UIs, fleets of LLM Discord bots |
+| 2025 | [hyperspace](https://github.com/matthew-kissinger/hyperspace) · [firehose-cli](https://github.com/matthew-kissinger/firehose-cli) · [zoo-mcp](https://github.com/matthew-kissinger/zoo-mcp) · [hyper-mcp](https://github.com/matthew-kissinger/hyper-mcp) | Reasoning shells, multi-model analysis, MCP servers |
+| 2025–26 | kiln → [kilnstudio.tools](https://kilnstudio.tools) *(closed source)* | Production text-to-3D SaaS on AWS Bedrock AgentCore |
+
+</details>
+
+<details>
+<summary><b>🕸️ Manual developer → AI-agent fleet operator</b></summary>
+<br>
+
+| | | |
+|---|---|---|
+| 2025 | [agent-orchestrator-mcp-server](https://github.com/matthew-kissinger/agent-orchestrator-mcp-server) | MCP server orchestrating Claude Code, Codex, Gemini, Cursor |
+| 2026 | [mycelium](https://github.com/matthew-kissinger/mycelium) → [mycelium-v2](https://github.com/matthew-kissinger/mycelium-v2) | Autonomous agent loop with evaluator + human-in-the-loop → 10-agent orchestrator with a React Flow control surface |
+| 2026 | [sbox-workspace](https://github.com/matthew-kissinger/sbox-workspace) · [sheep-dog-sim](https://github.com/matthew-kissinger/sheep-dog-sim) | An unsupervised agent swarm shipped 10 s&box games; a full C# game port built agent-first |
+
+</details>
+
+<details>
+<summary><b>🎨 Asset generator → commercial text-to-3D product</b></summary>
+<br>
+
+The longest line in the portfolio: [2DGAG](https://github.com/matthew-kissinger/2DGAG) (2023, Stable Diffusion sprites) → pixforge → pixel-forge (LLM-as-programmer 3D generation) → kiln (private engine with a deterministic CPU rasterizer so the model can see its own output, plus a Bradley-Terry ranking arena) → [kilnstudio.tools](https://kilnstudio.tools) (2026, deployed SaaS). Each step exists because the previous approach hit a real limitation.
+
+</details>
+
+Some repos here are deliberately frozen — generational snapshots of what agent orchestration looked like on a given model generation ([mycelium-v2](https://github.com/matthew-kissinger/mycelium-v2) is archived at the Opus 4.6 / GPT-5.2 era), kept as reference for the next rebuild rather than maintained. Things move quickly; the artifacts are the point.
 
 Recurring obsessions: **CPU/GPU parity** (terrain math, wave math, and boid logic that run bit-identically on both — four projects and counting), **hand-rolled core systems** over off-the-shelf engines, and **shipping live URLs** — a project isn't done until someone can play it.
 
