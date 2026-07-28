@@ -1,8 +1,14 @@
 # Matthew Kissinger
 
-**I build games, AI systems, and the tooling to make them.**
+**I build games, simulations, AI systems, and developer tools.**
 
-Developer working across real-time 3D (WebGL and WebGPU, Three.js/TSL), AI pipelines, and whatever the problem actually needs. I hand-roll the systems that matter - flocking, terrain, wave physics, multiplayer netcode - and when the tool I need doesn't exist, I build it.
+I work primarily in TypeScript/JavaScript and Python across agent systems, services, automation, browser applications, real-time 3D, and GPU-driven simulation. Agent work is language-flexible too: the [Strands Agents SDK](https://strandsagents.com/) is my go-to harness, whether the surrounding system is TypeScript or Python.
+
+I choose languages and frameworks to fit the system rather than treating the stack as an identity. My recent public work happens to lean TypeScript, while much of my production work lives in company repositories. I am also building fluency in Rust through smaller experiments.
+
+## Portfolio
+
+**[Open MK OS](https://mkos.instruktlabs.com/)** - my interactive portfolio and an executable index of the wider practice. It is also a project in its own right: a hand-rolled TypeScript browser system with its own window manager, virtual filesystem, simulations, and WebGPU applications.
 
 <!-- capture slots: 2-up gameplay grid goes here (sds + titj), see SHOTLIST.md -->
 
