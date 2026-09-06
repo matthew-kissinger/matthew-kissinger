@@ -18,6 +18,10 @@ I built the engine and tooling: an MCP server, CLI, TypeScript library, and agen
 
 My interactive portfolio is also a browser application I built: a TypeScript desktop with its own window manager, app runtime, virtual filesystem, and graphics and audio tools.
 
+**Zero third-party runtime dependencies in the core desktop and simulation stack.** I built the window manager, filesystem, graphics, audio, and simulations in TypeScript, directly on the DOM, WebGPU/WebGL2, Web Audio, and worker APIs. No UI framework or runtime game engine.
+
+The optional Kowalski local-model worker loads Transformers.js and ONNX Runtime on demand; those inference libraries are separate from the core stack.
+
 Explore the engineering through these MK OS applications:
 
 - [Ocean](https://mkos.instruktlabs.com/#/ocean): water and craft simulation.
