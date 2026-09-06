@@ -14,6 +14,15 @@ An open-source toolkit for building editable 3D assets with coding agents. The a
 
 I built the engine and tooling: an MCP server, CLI, TypeScript library, and agent workflows. Kiln grew out of my hosted Kiln Studio product and now runs locally. **MIT licensed.** [Gallery and setup](https://kilnstudio.tools/)
 
+### AgentCore and Strands skills
+
+Installable skills for coding agents, drawn from building, debugging, and retiring hosted Kiln:
+
+- [AgentCore Skills](https://github.com/matthew-kissinger/agentcore-skills): TypeScript runtimes, streaming and sessions, Gateway identity and signing, and deployment operations.
+- [Strands Agents Skills](https://github.com/matthew-kissinger/strands-agents-skills): provider integrations, tool loops, media handling, budgets, and consistent tool contracts across SDK, MCP, and CLI.
+
+**MIT-licensed community projects**, with source-linked explanations and offline examples. They turn lessons from a working system into reusable guidance other engineers and their agents can inspect and apply.
+
 ### [MK OS](https://mkos.instruktlabs.com/)
 
 My interactive portfolio is also a browser application I built: a TypeScript desktop with its own window manager, app runtime, virtual filesystem, and graphics and audio tools.
