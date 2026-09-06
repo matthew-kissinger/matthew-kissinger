@@ -1,10 +1,10 @@
 # Matthew Kissinger
 
-**Software developer building AI systems, developer tools, and interactive web applications.**
+**Software engineer building AI systems, developer tools, and interactive web applications.**
 
 I work in Python and TypeScript, from agent infrastructure and backend services to browser interfaces, real-time graphics, and simulation. My professional work includes production AI systems for Electrify America and earlier work in financial verification and federal healthcare modernization.
 
-**Open to developer roles and contract projects.** [Email me](mailto:matt@instruktlabs.com) · [Explore MK OS](https://mkos.instruktlabs.com/)
+**Open to engineering roles and contract projects.** [Email me](mailto:matt@instruktlabs.com) · [Explore MK OS](https://mkos.instruktlabs.com/)
 
 ## Selected work
 
@@ -18,7 +18,15 @@ I built the engine and tooling: an MCP server, CLI, TypeScript library, and agen
 
 My interactive portfolio is also a browser application I built: a TypeScript desktop with its own window manager, app runtime, virtual filesystem, and graphics and audio tools.
 
-Try [Ocean](https://mkos.instruktlabs.com/#/ocean) for interactive water and boat physics, [Decks](https://mkos.instruktlabs.com/#/decks) for a pattern-based audio instrument, or [Meshdoc](https://mkos.instruktlabs.com/#/meshdoc) for GLB geometry inspection. In Meshdoc, choose **open sample .glb** to see an inspection. Live application; source private.
+Explore the engineering through these MK OS applications:
+
+- [Ocean](https://mkos.instruktlabs.com/#/ocean): water and craft simulation.
+- [Fallline](https://mkos.instruktlabs.com/#/fallline): freestyle skiing with carved turns and aerial control.
+- [Boids](https://mkos.instruktlabs.com/#/boids): GPU flocking with a CPU reference for validation.
+- [Shaderlab](https://mkos.instruktlabs.com/#/shaderlab): compare CPU, WebGPU, and WebGL2 shader results.
+- [Planet](https://mkos.instruktlabs.com/#/planet): an orbitable world with terrain, biomes, and climate.
+
+Live application; source private.
 
 ### [Sheepdog Sim](https://sheepdogsim.com/)
 
