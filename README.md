@@ -1,20 +1,30 @@
 # Matthew Kissinger
 
-**Software engineer building AI systems, developer tools, and interactive web applications.**
+**Software engineer building developer tools, AI systems, and interactive software.**
 
 I work in Python and TypeScript, from agent infrastructure and backend services to browser interfaces, real-time graphics, and simulation. My professional work includes production AI systems for Electrify America and earlier work in financial verification and federal healthcare modernization.
 
-**Open to engineering roles and contract projects.** [Email me](mailto:matt@instruktlabs.com) · [Explore MK OS](https://mkos.instruktlabs.com/)
+**Open to engineering roles and contract projects.** [matt@instruktlabs.com](mailto:matt@instruktlabs.com)  /  [Explore MK OS](https://mkos.instruktlabs.com/)
 
 ## Selected work
 
-### [Kiln](https://github.com/matthew-kissinger/kiln)
+### [Kiln](https://github.com/instruktlabs/kiln)
 
-An open-source toolkit for building editable 3D assets with coding agents. The agent writes JavaScript; Kiln executes it, renders views, and returns structural checks for revision. Assets export as GLB while their source stays editable.
+An **MIT-licensed, open-source procedural 3D engine for coding agents**, actively developed in the [public GitHub repository](https://github.com/instruktlabs/kiln). Available on npm as **[`@instruktlabs/kiln`](https://www.npmjs.com/package/@instruktlabs/kiln)** under **Instrukt Labs**. [Explore KilnStudio.tools](https://kilnstudio.tools/).
 
-I built the engine and tooling: an MCP server, CLI, TypeScript library, and agent workflows. Kiln grew out of my hosted Kiln Studio product and now runs locally. **MIT licensed.** [Gallery and setup](https://kilnstudio.tools/)
+Your agent writes JavaScript; Kiln runs it, returns rendered views and structural checks, and preserves the source for revision. Export a GLB and keep an editable asset rather than just its final mesh.
 
-### AgentCore and Strands skills
+I built the engine, MCP server, CLI, TypeScript SDK, saved-revision workflow, and workspace tooling. Local plugins support Claude Code and Codex, with setup for other supported coding agents. [Installation](https://github.com/instruktlabs/kiln/blob/main/docs/install.md) · [Gallery](https://kilnstudio.tools/gallery/) · [Interactive scenes](https://kilnstudio.tools/scenes/)
+
+A hosted beta relaunch is in progress, with general availability planned soon. I am working toward inclusion in the official Claude Code and Codex plugin libraries.
+
+### [Sheepdog Sim](https://github.com/matthew-kissinger/sds)
+
+A single-player browser game about guiding 25, 75 or 200 sheep into their pen. V3 includes keyboard, gamepad and touch controls, dog and flock customization, local records, online solo times, and personal run history. Built with TypeScript, React and Three.js, with WebGPU and WebGL2 rendering. **AGPL-3.0-or-later.** [Play Sheepdog Sim](https://sheepdogsim.com/).
+
+In the 30 days ending October 7, 2026, Sheepdog Sim saw 7,652 new player profiles. V3 players completed 861 online runs, spending 78.3 hours herding 45,900 sheep. Those totals do not include unfinished or offline runs, so they capture only part of the activity. [Measurement details](https://mkos.instruktlabs.com/work/studies/sheepdog.html) explain profile identities and the reporting window. Multiplayer is planned.
+
+### [AgentCore](https://github.com/matthew-kissinger/agentcore-skills) and [Strands](https://github.com/matthew-kissinger/strands-agents-skills) skills
 
 Installable skills for coding agents, drawn from building, debugging, and retiring hosted Kiln:
 
@@ -41,19 +51,19 @@ Explore the engineering through these MK OS applications:
 
 Live application; source private.
 
-### [Sheepdog Sim](https://sheepdogsim.com/)
-
-A shipped single-player browser game about guiding a flock into its pen. The current version includes keyboard, gamepad, and touch controls, dog and flock customization, local records, and optional online solo times. Built with React, TypeScript, and Three.js, with WebGPU and WebGL2 rendering. **[Source: AGPL-3.0](https://github.com/matthew-kissinger/sds).**
-
-Recently rebuilt; multiplayer is planned to return in a future update.
-
 ### [Three.js Field Grass](https://github.com/matthew-kissinger/threejs-field-grass)
 
 A reusable interactive grass system with deterministic placement, wind, and movement-responsive deformation. Plain Three.js API with an optional React Three Fiber adapter. **MIT-licensed source preview.** [Interactive examples](https://matthew-kissinger.github.io/threejs-field-grass/)
 
 ## In development
 
-**Terror in the Jungle** is my browser-based Vietnam combat simulation. I am rebuilding it around first-person squad command and sector battles, with a separate asset workshop and worker-based simulation. [Current public playtest](https://vietnam-war-sim.pages.dev/) (work in progress; WebGPU required; source private) · [Original open-source project](https://github.com/matthew-kissinger/terror-in-the-jungle) · [Original playable build](https://terror-in-the-jungle.pages.dev/)
+### [Terror in the Jungle V3](https://vietnam-war-sim.pages.dev/)
+
+My closed-source browser combat game, with first-person squad command, sector battles, combined arms, and worker-based simulation. The current playable build requires WebGPU. Development and performance work continue.
+
+### [OBJEKT-62](https://objekt62.com/)
+
+My closed-source browser salvage game with single-player exploration and private co-op. Its multiplayer systems use server authority, prediction and reconciliation, persistence, and shared vehicle crews. It is playable and in active development.
 
 ## Work with me
 
