@@ -57,6 +57,10 @@ A reusable interactive grass system with deterministic placement, wind, and move
 
 ## In development
 
+### [Ski Sim](https://skisim.app/)
+
+My closed-source browser skiing game, with authored mountain trails, carved turns, freestyle tricks, local personal bests, and online time and freestyle rankings. Built with TypeScript, React Three Fiber, and Three.js, with Cloudflare Pages Functions and D1 for rankings. It is in active development at [skisim.app](https://skisim.app/).
+
 ### [Terror in the Jungle V3](https://vietnam-war-sim.pages.dev/)
 
 My closed-source browser combat game, with first-person squad command, sector battles, combined arms, and worker-based simulation. The current playable build requires WebGPU. Development and performance work continue.
