@@ -4,7 +4,7 @@
 
 I work in Python and TypeScript, from agent infrastructure and backend services to browser interfaces, real-time graphics, and simulation. My professional work includes production AI systems for Electrify America and earlier work in financial verification and federal healthcare modernization.
 
-**Open to engineering roles and contract projects.** [matt@instruktlabs.com](mailto:matt@instruktlabs.com)  /  [Explore MK OS](https://mkos.instruktlabs.com/)
+**Open to engineering roles and contract projects.** [matt@instruktlabs.com](mailto:matt@instruktlabs.com)  /  [Instrukt Labs](https://instruktlabs.com/)
 
 ## Selected work
 
@@ -20,36 +20,15 @@ A hosted beta relaunch is in progress, with general availability planned soon. I
 
 ### [Sheepdog Sim](https://github.com/matthew-kissinger/sds)
 
-A single-player browser game about guiding 25, 75 or 200 sheep into their pen. V3 includes keyboard, gamepad and touch controls, dog and flock customization, local records, online solo times, and personal run history. Built with TypeScript, React and Three.js, with WebGPU and WebGL2 rendering. **AGPL-3.0-or-later.** [Play Sheepdog Sim](https://sheepdogsim.com/).
+A browser game about guiding 25, 75 or 200 sheep into their pen. Play solo or invite friends for co-op or shared-flock competition with two to four players. Built with TypeScript, React and Three.js, with WebGPU and WebGL2 rendering. **AGPL-3.0-or-later.** [Play Sheepdog Sim](https://sheepdogsim.com/).
 
-In the 30 days ending October 7, 2026, Sheepdog Sim saw 7,652 new player profiles. V3 players completed 861 online runs, spending 78.3 hours herding 45,900 sheep. Those totals do not include unfinished or offline runs, so they capture only part of the activity. [Measurement details](https://mkos.instruktlabs.com/work/studies/sheepdog.html) explain profile identities and the reporting window. Multiplayer is planned.
+**13,039 browser profiles** and **1,301 online solo finishes** recorded as of November 24, 2026. [Counting details](https://instruktlabs.com/#game-activity).
 
-### [AgentCore](https://github.com/matthew-kissinger/agentcore-skills) and [Strands](https://github.com/matthew-kissinger/strands-agents-skills) skills
+### [Ski Sim](https://skisim.app/)
 
-Installable skills for coding agents, drawn from building, debugging, and retiring hosted Kiln:
+My browser skiing game has 12 trails, freestyle tricks and rails, online time and freestyle rankings, and multiplayer. Built with TypeScript, React Three Fiber, and Three.js, with Cloudflare Pages Functions and D1 for rankings.
 
-- [AgentCore Skills](https://github.com/matthew-kissinger/agentcore-skills): TypeScript runtimes, streaming and sessions, Gateway identity and signing, and deployment operations.
-- [Strands Agents Skills](https://github.com/matthew-kissinger/strands-agents-skills): provider integrations, tool loops, media handling, budgets, and consistent tool contracts across SDK, MCP, and CLI.
-
-**MIT-licensed community projects**, with source-linked explanations and offline examples. They turn lessons from a working system into reusable guidance other engineers and their agents can inspect and apply.
-
-### [MK OS](https://mkos.instruktlabs.com/)
-
-My interactive portfolio is also a browser application I built: a TypeScript desktop with its own window manager, app runtime, virtual filesystem, and graphics and audio tools.
-
-**Zero third-party runtime dependencies in the core desktop and simulation stack.** I built the window manager, filesystem, graphics, audio, and simulations in TypeScript, directly on the DOM, WebGPU/WebGL2, Web Audio, and worker APIs. No UI framework or runtime game engine.
-
-The optional Kowalski local-model worker loads Transformers.js and ONNX Runtime on demand; those inference libraries are separate from the core stack.
-
-Explore the engineering through these MK OS applications:
-
-- [Ocean](https://mkos.instruktlabs.com/#/ocean): water and craft simulation.
-- [Fallline](https://mkos.instruktlabs.com/#/fallline): freestyle skiing with carved turns and aerial control.
-- [Boids](https://mkos.instruktlabs.com/#/boids): GPU flocking with a CPU reference for validation.
-- [Shaderlab](https://mkos.instruktlabs.com/#/shaderlab): compare CPU, WebGPU, and WebGL2 shader results.
-- [Planet](https://mkos.instruktlabs.com/#/planet): an orbitable world with terrain, biomes, and climate.
-
-Live application; source private.
+**3,544 profiles** and **4,418 accepted online runs** recorded as of November 24, 2026. [Counting details](https://instruktlabs.com/#game-activity).
 
 ### [Three.js Field Grass](https://github.com/matthew-kissinger/threejs-field-grass)
 
@@ -57,17 +36,17 @@ A reusable interactive grass system with deterministic placement, wind, and move
 
 ## In development
 
-### [Ski Sim](https://skisim.app/)
+### [Sperm Whale Sim](https://spermwhalesim.com/)
 
-My closed-source browser skiing game, with authored mountain trails, carved turns, freestyle tricks, local personal bests, and online time and freestyle rankings. Built with TypeScript, React Three Fiber, and Three.js, with Cloudflare Pages Functions and D1 for rankings. It is in active development at [skisim.app](https://skisim.app/).
+I’m building a sperm whale simulator. The current preview follows a sperm whale on a deep-water hunt in a four-minute film rendered live in the browser.
 
-### [Terror in the Jungle V3](https://vietnam-war-sim.pages.dev/)
+### [Ocean Lab](https://matthew-kissinger.github.io/ocean-lab/)
 
-My closed-source browser combat game, with first-person squad command, sector battles, combined arms, and worker-based simulation. The current playable build requires WebGPU. Development and performance work continue.
+An interactive Three.js ocean and sky playground. Take the helm of a gaff-rigged sloop, change the sea state, and see how the boat responds.
 
-### [OBJEKT-62](https://objekt62.com/)
+### [OBJEKT 62](https://objekt62.com/)
 
-My closed-source browser salvage game with single-player exploration and private co-op. Its multiplayer systems use server authority, prediction and reconciliation, persistence, and shared vehicle crews. It is playable and in active development.
+My closed-source browser salvage game with single-player exploration and private co-op. Its multiplayer systems use server authority, prediction and reconciliation, persistence, and shared vehicle crews.
 
 ## Work with me
 
